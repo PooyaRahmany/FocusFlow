@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 2000 1500">
+  
+  <defs>
+    <clipPath id="clippath">
+      <rect width="2000" height="1500" style="fill: none;"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="977.601" y1="-19.583" x2="985.076" y2="1169.576" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00bedb"/>
+      <stop offset=".075" stop-color="#1fc3de"/>
+      <stop offset=".186" stop-color="#46cbe2"/>
+      <stop offset=".295" stop-color="#65d1e5"/>
+      <stop offset=".401" stop-color="#7cd5e8"/>
+      <stop offset=".502" stop-color="#89d8e9"/>
+      <stop offset=".593" stop-color="#8ed9ea"/>
+    </linearGradient>
+  </defs>
+  <g style="clip-path: url(#clippath);">
+    <rect x="-68.959" y="-29.639" width="2098.565" height="886.176" style="fill: url(#linear-gradient);"/>
+    <polygon points="-166.06 818.506 309.535 620.342 818.819 735.277 961.497 709.516 1468.799 778.873 1880.982 578.727 2061.312 698.617 2087.073 1036.488 -179.932 1036.488 -166.06 818.506" style="fill: #fefefe;"/>
+    <polygon points="-173.987 1052.341 279.811 941.368 834.672 953.258 1571.845 893.809 2073.202 1018.653 2059.33 1478.395 -80.849 1472.45 -173.987 1052.341" style="fill: #00948a;"/>
+    <polygon points="-124.445 895.791 -17.436 816.525 497.792 750 1177.497 858.139 1845.312 844.268 2136.614 897.772 2126.706 1018.653 1756.138 1135.57 987.259 1038.469 329.352 1105.845 -118.5 1010.726 -124.445 895.791" style="fill: #95cfc7;"/>
+    <circle cx="525.535" cy="342.825" r="160.513" style="fill: #fe8d62;"/>
+    <rect x="-185.877" y="1424.89" width="2304.656" height="134.752" style="fill: #f6c2a4;"/>
+  </g>
+</svg>

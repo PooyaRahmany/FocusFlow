@@ -1,0 +1,46 @@
+
+/* v77: add the missing motion specifically to the Bonfire page and widget picker */
+@media (prefers-reduced-motion: no-preference) {
+  #bonfirePage.active .bonfire-native-root .top { animation: ffBonfireTopIn 520ms cubic-bezier(.2,.75,.25,1) both; }
+  #bonfirePage.active .bonfire-native-root .hero { animation: ffBonfireHeroIn 600ms cubic-bezier(.2,.75,.25,1) both; }
+  #bonfirePage.active .bonfire-native-root .tag-section-head,
+  #bonfirePage.active .bonfire-native-root .toolbar,
+  #bonfirePage.active .bonfire-native-root .cards,
+  #bonfirePage.active .bonfire-native-root .bottomnav { animation: ffBonfireRiseIn 480ms cubic-bezier(.2,.75,.25,1) both; }
+  #bonfirePage.active .bonfire-native-root .toolbar { animation-delay: 70ms; }
+  #bonfirePage.active .bonfire-native-root .cards { animation-delay: 110ms; }
+  #bonfirePage.active .bonfire-native-root .bottomnav { animation-delay: 150ms; }
+  #bonfirePage .bonfire-native-root .pv-bonfire-logo { transition: transform 320ms cubic-bezier(.2,.75,.25,1), filter 320ms ease; }
+  #bonfirePage .bonfire-native-root .brand:hover .pv-bonfire-logo { transform: rotate(-5deg) scale(1.06); filter: drop-shadow(0 5px 10px rgba(139,108,255,.22)); }
+  #bonfirePage .bonfire-native-root button, #bonfirePage .bonfire-native-root .settingcard, #bonfirePage .bonfire-native-root .tagrow, #bonfirePage .bonfire-native-root .viewbtn { transition: transform 220ms cubic-bezier(.2,.75,.25,1), box-shadow 220ms ease, border-color 220ms ease, background-color 220ms ease; }
+  #bonfirePage .bonfire-native-root button:active, #bonfirePage .bonfire-native-root .settingcard:active, #bonfirePage .bonfire-native-root .tagrow:active { transform: scale(.975); }
+  #bonfirePage .bonfire-native-root .settingcard:hover, #bonfirePage .bonfire-native-root .tagrow:hover { transform: translateY(-2px); }
+  #bonfirePage .bonfire-native-root .modalback:not(.hidden) { animation: ffBonfireFadeIn 180ms ease both; }
+  #bonfirePage .bonfire-native-root .modalback:not(.hidden) .modal { animation: ffBonfireModalIn 260ms cubic-bezier(.2,.75,.25,1) both; }
+
+  #ff-widget-backdrop.ff-open { animation: ffWidgetBackdropIn 200ms ease both; }
+  #ff-widget-backdrop.ff-open #ff-widget-dialog { animation: ffWidgetDialogIn 360ms cubic-bezier(.2,.75,.25,1) both; }
+  #ff-widget-options button { transform-origin: center; transition: transform 240ms cubic-bezier(.2,.75,.25,1), border-color 220ms ease, box-shadow 220ms ease, background-color 220ms ease; animation: ffWidgetCardIn 360ms cubic-bezier(.2,.75,.25,1) both; }
+  #ff-widget-options button:nth-child(2) { animation-delay: 30ms; }
+  #ff-widget-options button:nth-child(3) { animation-delay: 60ms; }
+  #ff-widget-options button:nth-child(4) { animation-delay: 90ms; }
+  #ff-widget-options button:nth-child(5) { animation-delay: 120ms; }
+  #ff-widget-options button:nth-child(6) { animation-delay: 150ms; }
+  #ff-widget-options button:nth-child(n+7) { animation-delay: 170ms; }
+  #ff-widget-options button:hover { transform: translateY(-3px); }
+  #ff-widget-options button[aria-pressed="true"] { transform: translateY(-2px) scale(1.01); }
+  #ff-widget-options button:active { transform: scale(.975); }
+  .ff-widget-preview { transition: transform 280ms cubic-bezier(.2,.75,.25,1), filter 280ms ease; }
+  #ff-widget-options button:hover .ff-widget-preview, #ff-widget-options button[aria-pressed="true"] .ff-widget-preview { transform: scale(1.025); filter: brightness(1.08); }
+  .ff-widget-preview .ffp-line:after { animation: ffWidgetProgressGlow 2.4s ease-in-out infinite alternate; }
+}
+@keyframes ffBonfireTopIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ffBonfireHeroIn { from { opacity: 0; transform: translateY(14px) scale(.99); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes ffBonfireRiseIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ffBonfireFadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes ffBonfireModalIn { from { opacity: .7; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes ffWidgetBackdropIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes ffWidgetDialogIn { from { opacity: 0; transform: translateY(14px) scale(.975); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes ffWidgetCardIn { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ffWidgetProgressGlow { from { filter: brightness(.9); } to { filter: brightness(1.25); } }
+@media (prefers-reduced-motion: reduce) { #bonfirePage .bonfire-native-root *, #ff-widget-backdrop *, #ff-widget-backdrop { animation: none !important; transition: none !important; } }

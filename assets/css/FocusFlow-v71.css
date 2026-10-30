@@ -1,0 +1,31 @@
+
+/* FocusFlow v71 — focused overrides for the floating music player and Bonfire controls. */
+/* Compact floating player: no user/browser resizing; position may change by dragging only. */
+#miniPlayer{
+  box-sizing:border-box!important;
+  width:min(320px,calc(100vw - 24px))!important;
+  min-width:0!important;
+  max-width:320px!important;
+  height:auto!important;
+  min-height:0!important;
+  max-height:none!important;
+  resize:none!important;
+  overflow:hidden!important;
+  transform-origin:top left!important;
+  transition:opacity .18s ease!important;
+}
+#miniPlayer.is-dragging{transition:none!important;}
+#miniPlayer img,#miniPlayer button,#miniPlayer .mini-info{min-width:0;}
+@media(max-width:420px){
+  #miniPlayer{width:calc(100vw - 24px)!important;max-width:320px!important;}
+}
+/* Keep the card action buttons square in Bonfire grid mode. */
+#bonfirePage #bonfire-native-root #cards.cards:not(.list)>.promptcard .cardtools .tiny{
+  box-sizing:border-box!important;width:32px!important;min-width:32px!important;max-width:32px!important;
+  height:32px!important;min-height:32px!important;max-height:32px!important;aspect-ratio:1/1!important;
+  flex:0 0 32px!important;padding:0!important;line-height:1!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+}
+/* Remove the unused hero/search panel directly below the Bonfire navbar. */
+#bonfirePage #bonfire-native-root>.app>.hero{display:none!important;margin:0!important;padding:0!important;height:0!important;min-height:0!important;}
+

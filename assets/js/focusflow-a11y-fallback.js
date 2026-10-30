@@ -1,0 +1,1 @@
+try{if((localStorage.getItem('focusflow-language')||'en')==='fa')document.getElementById('settingsPerfBtn').textContent='حالت عملکرد';}catch(e){}

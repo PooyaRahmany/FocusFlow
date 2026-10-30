@@ -1,0 +1,35 @@
+
+/* FocusFlow motion polish v76 — restrained, accessible micro-interactions */
+:root { --ff-motion-fast: 160ms; --ff-motion-mid: 260ms; --ff-motion-slow: 460ms; }
+@media (prefers-reduced-motion: no-preference) {
+  .topbar, header.top { animation: ffTopIn 480ms cubic-bezier(.2,.75,.25,1) both; }
+  #menuBtn, #searchBtn, #searchToggle, #bonfireThemeBtn, #settingsBtn, #topAdd, #manageTagsBtn,
+  .iconbtn, .primary, .secondary, .linkbtn, .viewbtn, .navitem, .today-chip, .metric {
+    transition: transform var(--ff-motion-mid) cubic-bezier(.2,.75,.25,1), box-shadow var(--ff-motion-mid) ease, opacity var(--ff-motion-mid) ease, background-color var(--ff-motion-mid) ease;
+    transform-origin: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:active, .navitem:active, .viewbtn:active { transform: scale(.965); }
+  .primary:hover, .secondary:hover, .iconbtn:hover, .linkbtn:hover, .today-chip:hover, .metric:hover { transform: translateY(-2px); }
+  .card { transition: transform 320ms cubic-bezier(.2,.75,.25,1), box-shadow 320ms ease, border-color 320ms ease; }
+  .card:hover { transform: translateY(-2px); }
+  .bottomnav .navitem svg, .bottomnav .navitem i { transition: transform 260ms cubic-bezier(.2,.75,.25,1); }
+  .bottomnav .navitem.active svg, .bottomnav .navitem.active i { transform: scale(1.09); }
+  .drawer { transition: transform 320ms cubic-bezier(.2,.75,.25,1), opacity 260ms ease; }
+  .modal { animation: ffModalIn 280ms cubic-bezier(.2,.75,.25,1) both; transform-origin: center; }
+  #toast { animation: ffToastIn 260ms cubic-bezier(.2,.75,.25,1) both; }
+  .ff-motion-item { opacity: 0; transform: translateY(12px); transition: opacity 420ms ease, transform 420ms cubic-bezier(.2,.75,.25,1); }
+  .ff-motion-item.ff-motion-visible { opacity: 1; transform: translateY(0); }
+  .ff-motion-item:nth-of-type(2) { transition-delay: 35ms; }
+  .ff-motion-item:nth-of-type(3) { transition-delay: 70ms; }
+  .ff-motion-item:nth-of-type(4) { transition-delay: 105ms; }
+  .ff-motion-item:nth-of-type(5) { transition-delay: 140ms; }
+  .ff-widget-card, [data-widget-card], .widget-card { transition: transform 240ms cubic-bezier(.2,.75,.25,1), box-shadow 240ms ease; }
+  .ff-widget-card:hover, [data-widget-card]:hover, .widget-card:hover { transform: translateY(-3px) scale(1.008); }
+}
+@keyframes ffTopIn { from { opacity: 0; transform: translateY(-7px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ffModalIn { from { opacity: .72; transform: translateY(9px) scale(.985); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes ffToastIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

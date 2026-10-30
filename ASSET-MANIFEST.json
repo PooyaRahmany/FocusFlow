@@ -1,0 +1,703 @@
+{
+  "source": "FocusFlow-v78-final.html",
+  "css": [
+    {
+      "file": "assets/css/FocusFlow-v71.css",
+      "bytes": 1545,
+      "sha256": "8bf18af468b18b473ad776ef967b1e9868eecb72a1f1e86e2d28103a289edbbe"
+    },
+    {
+      "file": "assets/css/ff-native-widgets-style.css",
+      "bytes": 4672,
+      "sha256": "601316b699ef5eae92580de3442d06f06f402258393b287c19c635ae1acce032"
+    },
+    {
+      "file": "assets/css/ff-v78-distinct-widget-themes.css",
+      "bytes": 3728,
+      "sha256": "2fcbea14a2c8bb70b02e22b06cc58de19ce64b39308857a237cfdb8059dd8d80"
+    },
+    {
+      "file": "assets/css/focusflow-bonfire-widgets-motion-v77.css",
+      "bytes": 4806,
+      "sha256": "7cb8476aac35df847d6555476be713a3c60daeb4c3da80858cabd1826fd28778"
+    },
+    {
+      "file": "assets/css/focusflow-motion-v76.css",
+      "bytes": 2910,
+      "sha256": "77629259e661cdd060e6209f5c8fb7f613b3436123ca632e1244174109903f86"
+    },
+    {
+      "file": "assets/css/focusflow.css",
+      "bytes": 438325,
+      "sha256": "f8367f065a0bf6858bbae217a29dc4d1507b265689569eca46c8057f6ec512d3"
+    }
+  ],
+  "js": [
+    {
+      "file": "assets/js/ff-native-widgets-integration.js",
+      "bytes": 15003,
+      "sha256": "cf2da7d5019f06b7c9a176620967ff6dcc4978b5ba51c5ee39c2de0e8b69e2db"
+    },
+    {
+      "file": "assets/js/focusflow-a11y-fallback.js",
+      "bytes": 155,
+      "sha256": "07a4f0b75c4bd902a249a1cf3ce474a6f5de588cb1c724143e05400e28562b6a"
+    },
+    {
+      "file": "assets/js/focusflow-motion-v76-js.js",
+      "bytes": 2134,
+      "sha256": "558fb56cc6fc0248734b647020c2fb59a99fbe439f0aa0238743a638e37d31f9"
+    },
+    {
+      "file": "assets/js/focusflow-v71-overrides.js",
+      "bytes": 595,
+      "sha256": "a41ce7edbab078fcab35b12f78820fdf6842599bb6749f3b363772211f9dd41e"
+    },
+    {
+      "file": "assets/js/inline-001.js",
+      "bytes": 836,
+      "sha256": "110f908f26292afbe7c2bf406e98925596d1903bb762de16e6ec8ff3719b9a99"
+    },
+    {
+      "file": "assets/js/inline-002.js",
+      "bytes": 122214,
+      "sha256": "e615c78ffb4c931e0fa7e5c4e3891efc4d9383f03e78dc67b6af6c431f71405e"
+    },
+    {
+      "file": "assets/js/inline-003.js",
+      "bytes": 319315,
+      "sha256": "02065c0ee9e8ab7bbb3c295b81a3b7723e34da33232ee5276024de1cc6fe48b2"
+    },
+    {
+      "file": "assets/js/inline-004.js",
+      "bytes": 37,
+      "sha256": "786aa34de352123b9f77171ca5b2f60556eafa16f20fcc55e7bf6a04ad2b05b9"
+    },
+    {
+      "file": "assets/js/inline-005.js",
+      "bytes": 43,
+      "sha256": "7569c3ac50eb63432fc870591e80bcea3955eb612af4d934d96c7b8e44b0e01c"
+    },
+    {
+      "file": "assets/js/inline-006.js",
+      "bytes": 38,
+      "sha256": "784761b3533b165044b286a5fa0936ce46443bcb1afb6f896bbdc71933448bfb"
+    },
+    {
+      "file": "assets/js/inline-007.js",
+      "bytes": 1242,
+      "sha256": "c18b4c2b21d8215110279fac87ee20ccc013e90aa3062be243800b47031502f7"
+    },
+    {
+      "file": "assets/js/inline-008.js",
+      "bytes": 1686,
+      "sha256": "66865826e49f38f3e9031053c29246dfc32a6420f5cfb597d0c49db097306a68"
+    },
+    {
+      "file": "assets/js/inline-009.js",
+      "bytes": 5500,
+      "sha256": "80ccd9666979621e542036958cc5d0055d24be65d3b5798a8798f0608fccbd22"
+    },
+    {
+      "file": "assets/js/inline-010.js",
+      "bytes": 3501,
+      "sha256": "e0c04de23d9c8cf8eee5381b01303c6ddb19cd2c507c1f78b84eef70fac373bb"
+    },
+    {
+      "file": "assets/js/inline-011.js",
+      "bytes": 6093,
+      "sha256": "3f31474950b8e7bf675f1f862187be36d9cf1e636c6b2754c6b67eebbf41a7d1"
+    },
+    {
+      "file": "assets/js/inline-012.js",
+      "bytes": 1812,
+      "sha256": "c4750b0473f5051aec336d267cc9d5dff594d03e8c6b06cf5570afbe31a99cbe"
+    },
+    {
+      "file": "assets/js/inline-013.js",
+      "bytes": 967,
+      "sha256": "cbe334813bdbec84c379b49b574581a0a6571cd196a71748636e260c1d3c6960"
+    },
+    {
+      "file": "assets/js/inline-014.js",
+      "bytes": 1207,
+      "sha256": "606d42690bab52b02cd77ae54d738c7f2909f36fd0cf690c679bed9896a32a7b"
+    },
+    {
+      "file": "assets/js/inline-015.js",
+      "bytes": 2388,
+      "sha256": "1b0ce76054216f5f55eac9ca9a89d424eca50a48c5088451e73a4476687f7e24"
+    },
+    {
+      "file": "assets/js/inline-016.js",
+      "bytes": 357857,
+      "sha256": "ca61fafa9fa73b82e4bf9124e8244ebe818f093b1ae68cc6c9ad1e4272be47d7"
+    },
+    {
+      "file": "assets/js/inline-017.js",
+      "bytes": 39892,
+      "sha256": "960e71e324c5f421a8fdcaedc36e4c4ce05a511e34f7a5e06e7c77a4b589340c"
+    },
+    {
+      "file": "assets/js/inline-018.js",
+      "bytes": 627,
+      "sha256": "372fe80f6a9abc52a9f1f2d414f2b72ee86efd73ab0deac33b93ff4e0299acd5"
+    },
+    {
+      "file": "assets/js/inline-019.js",
+      "bytes": 1593,
+      "sha256": "c7ab40420aee970f003bf3af7ba27b0d8c4e533ffee6d8fd05549620498ef330"
+    },
+    {
+      "file": "assets/js/inline-020.js",
+      "bytes": 4607,
+      "sha256": "1ea80a109c5f29a64c565388918764b8930a286378371153cbb79d0b26faa6e2"
+    },
+    {
+      "file": "assets/js/inline-021.js",
+      "bytes": 763,
+      "sha256": "1affbbc66457414c8ebde24935a642a339773c4d147cd5bb841e0bb5c606227c"
+    },
+    {
+      "file": "assets/js/inline-022.js",
+      "bytes": 1950,
+      "sha256": "3acef6a1a9ef297e1b6e84f8e2bff42eda426ba98c4220cd8e91dcb084e27e17"
+    },
+    {
+      "file": "assets/js/inline-023.js",
+      "bytes": 1582,
+      "sha256": "b18074a907b8a1c02161a67c14f6d20b6fbec8c94b383bbfadae89db3c3e2b38"
+    },
+    {
+      "file": "assets/js/inline-024.js",
+      "bytes": 522,
+      "sha256": "92e710bcb13d2e4aef74b25738d9781fc184024cfbe29e44222e168f64e05c4b"
+    },
+    {
+      "file": "assets/js/inline-025.js",
+      "bytes": 832,
+      "sha256": "5f1063d38982778c93bf4319e7a8574b8888c803ee64ff1dcc43f9fe3848b6cb"
+    },
+    {
+      "file": "assets/js/inline-026.js",
+      "bytes": 952,
+      "sha256": "dbefe2a9fe5b79a93dd0a988be64f97a29d2996eb06b50026bbb06be82eff180"
+    },
+    {
+      "file": "assets/js/inline-027.js",
+      "bytes": 551,
+      "sha256": "5f76f8d6934c0560bbf6b97d3dbc178aff38edf99cf9f0ea5546e23f73cc8166"
+    },
+    {
+      "file": "assets/js/inline-029.js",
+      "bytes": 437,
+      "sha256": "1ee636be76cf30128ac3a9fbc72f4567650d64270ac18e311695494b479b0f3f"
+    },
+    {
+      "file": "assets/js/inline-030.js",
+      "bytes": 768,
+      "sha256": "2c18d483ee77846ee558a826c58f3f052276736d5f8274f1552e326748866180"
+    },
+    {
+      "file": "assets/js/inline-031.js",
+      "bytes": 693,
+      "sha256": "7f66421c08416e752bea913ff0f19052fe6d8163f48076b3c0a546d30eeea633"
+    },
+    {
+      "file": "assets/js/inline-032.js",
+      "bytes": 1116,
+      "sha256": "6d7f2766cffb10ba094f917f989e369bdb764df0a85d14ed0b4497c10bdf3b3e"
+    },
+    {
+      "file": "assets/js/inline-033.js",
+      "bytes": 1135,
+      "sha256": "8b47fc427a96070d225aab2905f4642608157911ed65a80e9b8ae36e2f119fff"
+    },
+    {
+      "file": "assets/js/inline-034.js",
+      "bytes": 3787,
+      "sha256": "a800c66d443d8d6f45285431659f78e5c256dbdab1a59c7775c67b7120376e88"
+    },
+    {
+      "file": "assets/js/inline-035.js",
+      "bytes": 6066,
+      "sha256": "f25ada0ed97e517c81ebf940f57a7733a89d66b360205919b2c5dd71d8005ac7"
+    },
+    {
+      "file": "assets/js/inline-036.js",
+      "bytes": 2465,
+      "sha256": "a19def5569a0eaaa411e99ba98915a0782b56e57ca6d74681093a09cff9379cf"
+    },
+    {
+      "file": "assets/js/inline-037.js",
+      "bytes": 944,
+      "sha256": "c5017bc388c88c198f619edb59ed948d6a3ba8e2032ae50a5e0192b09682d776"
+    },
+    {
+      "file": "assets/js/inline-038.js",
+      "bytes": 7845,
+      "sha256": "c0e07b9e15301b5dbad2b56cf58def180488e861fcd848d27a87ec54a73bc45e"
+    },
+    {
+      "file": "assets/js/inline-039.js",
+      "bytes": 25758,
+      "sha256": "d9786b5eea1283d400bc2558328c250cbebd9a4351c34f82251a6b6200db9dbf"
+    },
+    {
+      "file": "assets/js/inline-040.js",
+      "bytes": 3314,
+      "sha256": "396a1392c450b6afea11e678a00ea98cc789f5bc2b770bf8b6690d85689af40d"
+    },
+    {
+      "file": "assets/js/inline-041.js",
+      "bytes": 1761,
+      "sha256": "abb4a4c62d2bb69a12ca06496cd6af79610c22bf3eb246077ab575291eae20be"
+    },
+    {
+      "file": "assets/js/inline-042.js",
+      "bytes": 1931,
+      "sha256": "0b665d9f7174b3caeada7beb1db4b2626bec64645c9dbf91589a6e397dc4bf00"
+    },
+    {
+      "file": "assets/js/inline-043.js",
+      "bytes": 2011,
+      "sha256": "496eaa8cb0f585fc8fde5761f2e33d1d3455f2f50916dfe4bfb99765fbf09d7c"
+    }
+  ],
+  "embedded_assets_preserved": true,
+  "media": [
+    {
+      "key": "music/calm music 1 image.jpg",
+      "file": "assets/media/ff-asset-001.jpg",
+      "mime": "image/jpeg",
+      "bytes": 7138,
+      "sha256": "fa46b599572a2258e668f48bf97d7128126af0f936dfa43cef752a3aa9fddbf6"
+    },
+    {
+      "key": "music/calm music 2 image.jpg",
+      "file": "assets/media/ff-asset-002.jpg",
+      "mime": "image/jpeg",
+      "bytes": 3206,
+      "sha256": "d9995be11c9be149afa7a3b2702d37409618ab08a22a6b97f6d5589add430f23"
+    },
+    {
+      "key": "icons/calendar-heart -icon -svg.svg",
+      "file": "assets/media/ff-asset-003.svg",
+      "mime": "image/svg+xml",
+      "bytes": 473,
+      "sha256": "80076ca38b6c52f0db5c49af9f9fac8af5b1101ed14eff47af881134dfe10db1"
+    },
+    {
+      "key": "icons/Dark - icon -svg.svg",
+      "file": "assets/media/ff-asset-004.svg",
+      "mime": "image/svg+xml",
+      "bytes": 349,
+      "sha256": "bd984bceadfb0b86ee28960dbd93159e9012c02f988460d641ae81d67f65537a"
+    },
+    {
+      "key": "icons/star-task-icon-svg.svg",
+      "file": "assets/media/ff-asset-005.svg",
+      "mime": "image/svg+xml",
+      "bytes": 603,
+      "sha256": "5dda23923a065ed17e5a222a1083586532ce13f6742e29e5a7b549eee504e9f1"
+    },
+    {
+      "key": "icons/log-in.svg",
+      "file": "assets/media/ff-asset-006.svg",
+      "mime": "image/svg+xml",
+      "bytes": 328,
+      "sha256": "d968430502fab1b1f4b03da5c68731dd898436c8e2a69037fecb0c3b5fd0068f"
+    },
+    {
+      "key": "icons/Task-icon-svg.svg",
+      "file": "assets/media/ff-asset-007.svg",
+      "mime": "image/svg+xml",
+      "bytes": 363,
+      "sha256": "3c733209e4348ae6525dac11d0d4fd54dffa700167e88ceff38b28ece85b4a10"
+    },
+    {
+      "key": "icons/Delete-task-icon-svg.svg",
+      "file": "assets/media/ff-asset-008.svg",
+      "mime": "image/svg+xml",
+      "bytes": 389,
+      "sha256": "8bf93b384242404d1d9487f6a051a15f9b278e26eed6449048226339949fa696"
+    },
+    {
+      "key": "icons/Setting-icon-svg.svg",
+      "file": "assets/media/ff-asset-009.svg",
+      "mime": "image/svg+xml",
+      "bytes": 391,
+      "sha256": "205737b40830adb1b2ea7b62e2cf5e16797d677202e1a7c3167e898c90b43228"
+    },
+    {
+      "key": "icons/user-round-icon - svg.svg",
+      "file": "assets/media/ff-asset-010.svg",
+      "mime": "image/svg+xml",
+      "bytes": 296,
+      "sha256": "51971419e6be0524515aba8f69e9d75b651c040559bc47dd338de1cb9d3466d3"
+    },
+    {
+      "key": "icons/Light - icon - svg.svg",
+      "file": "assets/media/ff-asset-011.svg",
+      "mime": "image/svg+xml",
+      "bytes": 467,
+      "sha256": "fab007a2ef22eb7b78f8d9b27eb92e3451f1b4914e6e47ed33a86034e46dacb2"
+    },
+    {
+      "key": "icons/Feedback-icon-svg.svg",
+      "file": "assets/media/ff-asset-012.svg",
+      "mime": "image/svg+xml",
+      "bytes": 421,
+      "sha256": "8efa7cd80ebb2d70c5f4c6fdfcc78a309048d600337441f17797343bbfa3a0fc"
+    },
+    {
+      "key": "icons/music-icon-svg.svg",
+      "file": "assets/media/ff-asset-013.svg",
+      "mime": "image/svg+xml",
+      "bytes": 284,
+      "sha256": "d6b1344c773d8143e55f99ed1048e86216dfad49aa5246b12910cf8d99466821"
+    },
+    {
+      "key": "icons/add-image-icon-svg.svg",
+      "file": "assets/media/ff-asset-014.svg",
+      "mime": "image/svg+xml",
+      "bytes": 426,
+      "sha256": "4e0d7173db8b2c882847832bebcde9246940f4ae61b4d1271a72b64808f03fba"
+    },
+    {
+      "key": "icons/copy-plus-icon-svg.svg",
+      "file": "assets/media/ff-asset-015.svg",
+      "mime": "image/svg+xml",
+      "bytes": 433,
+      "sha256": "e0e9f18a1d22775075735e24be57de4a22171e779b02ec8cd6db0fa69b7477bc"
+    },
+    {
+      "key": "icons/menu-burger-icon-svg.svg",
+      "file": "assets/media/ff-asset-016.svg",
+      "mime": "image/svg+xml",
+      "bytes": 386,
+      "sha256": "6fd90e6a548bf8296e07453ddc043b6a1d492c1a7b03975221bbd265ed033633"
+    },
+    {
+      "key": "icons/heart-icon-svg.svg",
+      "file": "assets/media/ff-asset-017.svg",
+      "mime": "image/svg+xml",
+      "bytes": 389,
+      "sha256": "a9d744eb9d6fa737aac7fceb80bc41ecc423d97fded5417c1a916d12d5b3e961"
+    },
+    {
+      "key": "icons/close-icon-svg.svg",
+      "file": "assets/media/ff-asset-018.svg",
+      "mime": "image/svg+xml",
+      "bytes": 304,
+      "sha256": "96f3a68a23e131b2eefa60e8101bae16a7a80f614d689be57c350cc2968ee195"
+    },
+    {
+      "key": "icons/Theme-icon-svg.svg",
+      "file": "assets/media/ff-asset-019.svg",
+      "mime": "image/svg+xml",
+      "bytes": 417,
+      "sha256": "274cd98a8572b59ed53f554a97812b16009d39c5455521c374879ab8e7014540"
+    },
+    {
+      "key": "icons/Add-task-icon-svg.svg",
+      "file": "assets/media/ff-asset-020.svg",
+      "mime": "image/svg+xml",
+      "bytes": 321,
+      "sha256": "e62e20fbce8fee40376ea42170010486a25c3edcff37b9ee532dca25174899e6"
+    },
+    {
+      "key": "icons/check-check-task-icon-svg.svg",
+      "file": "assets/media/ff-asset-021.svg",
+      "mime": "image/svg+xml",
+      "bytes": 293,
+      "sha256": "5bcd3358179e522856f1268d1b8f2ac757d8e5cc2cfa38831636f890c8fb9e41"
+    },
+    {
+      "key": "icons/Focus-timer-icon-svg.svg",
+      "file": "assets/media/ff-asset-022.svg",
+      "mime": "image/svg+xml",
+      "bytes": 440,
+      "sha256": "0ec2ca58370df4af4d9c54e4f0f00c90d526103acf8b03b2269e162becf1ab4c"
+    },
+    {
+      "key": "icons/pin-task-icon-svg.svg",
+      "file": "assets/media/ff-asset-023.svg",
+      "mime": "image/svg+xml",
+      "bytes": 460,
+      "sha256": "a274b3b140a95e9c630f95931c2a8d38d95eb0913e32657c335214a6b8c0b040"
+    },
+    {
+      "key": "sound/Add-task -confrim-button-sound.mp3",
+      "file": "assets/media/ff-asset-024.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4032,
+      "sha256": "bdaf2a2673bba8d611c4bbd350be365ed26ce42b1c028526169f2d00d76e14c5"
+    },
+    {
+      "key": "sound/swap-month.mp3",
+      "file": "assets/media/ff-asset-025.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 22272,
+      "sha256": "30efac14d23bee4a614553ba17fa8eb9be7215b786933811b9c6c5212e036c66"
+    },
+    {
+      "key": "sound/Changing-background-sound.mp3",
+      "file": "assets/media/ff-asset-026.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 54334,
+      "sha256": "da550f12a3203603bf862d3f6a12ae180e4c782dfeebafc0695f5a70372da5a9"
+    },
+    {
+      "key": "sound/Done-task-sound.mp3",
+      "file": "assets/media/ff-asset-027.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 67709,
+      "sha256": "b2500a3fe30246f0421d42ab27c2015214003a40aa5487c372aded44af62cd9e"
+    },
+    {
+      "key": "back svg/Travel-svg.svg",
+      "file": "assets/media/ff-asset-028.svg",
+      "mime": "image/svg+xml",
+      "bytes": 10879,
+      "sha256": "9965ed95fd54d853b02dc66b511ceecbf1565a21d5bb7f8bdf060751f1c4d933"
+    },
+    {
+      "key": "back svg/Wishlist-svg.svg",
+      "file": "assets/media/ff-asset-029.svg",
+      "mime": "image/svg+xml",
+      "bytes": 8349,
+      "sha256": "587572d8d1959b06facfe4dc5727399155bb5d31e46c6fa2e6a968bb647b88ed"
+    },
+    {
+      "key": "back svg/Work-svg.svg",
+      "file": "assets/media/ff-asset-030.svg",
+      "mime": "image/svg+xml",
+      "bytes": 23967,
+      "sha256": "09b072a7995715d069bfae0cdeb0c8cc171ac21faf2c97068016e2cdc2ab818d"
+    },
+    {
+      "key": "back svg/Sport-svg.svg",
+      "file": "assets/media/ff-asset-031.svg",
+      "mime": "image/svg+xml",
+      "bytes": 4503,
+      "sha256": "f4aa35a26e69e835fa224671c57d679a0970ae8d1c2d29c966393c8090214880"
+    },
+    {
+      "key": "back svg/Focus -svg.svg",
+      "file": "assets/media/ff-asset-032.svg",
+      "mime": "image/svg+xml",
+      "bytes": 5232,
+      "sha256": "36c384368ee055e92ea2228373e4a456d64a2056202f639a2041f5b4fbd5e643"
+    },
+    {
+      "key": "back svg/Notaskfound-svg.svg",
+      "file": "assets/media/ff-asset-033.svg",
+      "mime": "image/svg+xml",
+      "bytes": 7470,
+      "sha256": "8ee4a28ebeab6162d392a460db1fff5e2f24ef50244fff41b607401e91cc5f56"
+    },
+    {
+      "key": "back svg/Reading-svg.svg",
+      "file": "assets/media/ff-asset-034.svg",
+      "mime": "image/svg+xml",
+      "bytes": 13963,
+      "sha256": "86708f06b797bfafce2050bc6c717aeafbe5a0dfd99fae9848601517de9bdf24"
+    },
+    {
+      "key": "back svg/FAQ-svg.svg",
+      "file": "assets/media/ff-asset-035.svg",
+      "mime": "image/svg+xml",
+      "bytes": 6089,
+      "sha256": "68c4a657dede28fed4d61d573f538dc461d8e7a07fc60a47c8762cb733beefe3"
+    },
+    {
+      "key": "back svg/Personal-svg.svg",
+      "file": "assets/media/ff-asset-036.svg",
+      "mime": "image/svg+xml",
+      "bytes": 12050,
+      "sha256": "fad29869088ae8871b230f80580904fe780cb1df697c13c5215843faf6013a57"
+    },
+    {
+      "key": "back svg/Breaktime-svg.svg",
+      "file": "assets/media/ff-asset-037.svg",
+      "mime": "image/svg+xml",
+      "bytes": 6809,
+      "sha256": "bb11829ba1f37f502b474efa4cbb83d619c104c810847a3593086251976a5cad"
+    },
+    {
+      "key": "back svg/Family time -svg.svg",
+      "file": "assets/media/ff-asset-038.svg",
+      "mime": "image/svg+xml",
+      "bytes": 8303,
+      "sha256": "6b91a3cdca044582f750ba78e435ea6844e8c073d25aba785ffe20592ba5acb1"
+    },
+    {
+      "key": "back svg/Photo-svg.svg",
+      "file": "assets/media/ff-asset-039.svg",
+      "mime": "image/svg+xml",
+      "bytes": 3079,
+      "sha256": "62ba1412a58bddb05c8aaabbe3c88b7cafa78ff7665297359f38b07c0403ff03"
+    },
+    {
+      "key": "back svg/Shop-svg.svg",
+      "file": "assets/media/ff-asset-040.svg",
+      "mime": "image/svg+xml",
+      "bytes": 10084,
+      "sha256": "3cd825c6a190ee7ca2cb31626dbb220e04131f18678aeb0b06888e741df54773"
+    },
+    {
+      "key": "back svg/no task found 2 -svg.svg",
+      "file": "assets/media/ff-asset-041.svg",
+      "mime": "image/svg+xml",
+      "bytes": 16389,
+      "sha256": "498fcd7f55fea01c24d47fa9ea31a2fa6fb870198bd18df35bf80a15e86a5fa1"
+    },
+    {
+      "key": "back svg/Foucus timer -svg.svg",
+      "file": "assets/media/ff-asset-042.svg",
+      "mime": "image/svg+xml",
+      "bytes": 4845,
+      "sha256": "26b6d45163bcad29ea16c83f2b32a3bc7c139bff01e0b5814c343c649560cb3a"
+    },
+    {
+      "key": "back svg/UploadFile-svg.svg",
+      "file": "assets/media/ff-asset-043.svg",
+      "mime": "image/svg+xml",
+      "bytes": 3312,
+      "sha256": "54bafd58e96b2f532d9541409994129171b87b0611f4d08062c5943561be5e91"
+    },
+    {
+      "key": "back svg/Selfcare-svg.svg",
+      "file": "assets/media/ff-asset-044.svg",
+      "mime": "image/svg+xml",
+      "bytes": 6483,
+      "sha256": "521c318430248dbb7e1a56196a5405b5c8753ed75a91ed4f8012f0b4c0f7215f"
+    },
+    {
+      "key": "back svg/Coding-svg.svg",
+      "file": "assets/media/ff-asset-045.svg",
+      "mime": "image/svg+xml",
+      "bytes": 6010,
+      "sha256": "143595494bbee6b711f2f767102b494444c890b9a9cc423ae028bfa6bf7824c8"
+    },
+    {
+      "key": "back calender image/imdad-jayd-3ID0WMnTjKI-unsplash.svg",
+      "file": "assets/media/ff-asset-046.svg",
+      "mime": "image/svg+xml",
+      "bytes": 25445,
+      "sha256": "c672109969a3e8effa132255a354924565587dea52c26d54a5ef8cf9222f93f1"
+    },
+    {
+      "key": "back calender image/mila-okta-safitri-17k-QS6909Y-unsplash.svg",
+      "file": "assets/media/ff-asset-047.svg",
+      "mime": "image/svg+xml",
+      "bytes": 31514,
+      "sha256": "0bdcefdf33cea7cf3ded58b3ba6e6799dfc49db134ad7f87eef88babf59caffa"
+    },
+    {
+      "key": "back calender image/alghozy-t_2J3h4URVA-unsplash.svg",
+      "file": "assets/media/ff-asset-048.svg",
+      "mime": "image/svg+xml",
+      "bytes": 216277,
+      "sha256": "042e2f26a23ca502ac81be9024a3f8d90f17db3824390f09ac88d1f7a46bba08"
+    },
+    {
+      "key": "back calender image/muhammad-afandi-QUqh1JxPb3Q-unsplash (1).svg",
+      "file": "assets/media/ff-asset-049.svg",
+      "mime": "image/svg+xml",
+      "bytes": 18664,
+      "sha256": "17966349ad135442d806c8f00284ac9569248193ed69d422c1803d17898c1112"
+    },
+    {
+      "key": "back calender image/public-domain-vectors-qiThMclR364-unsplash.svg",
+      "file": "assets/media/ff-asset-050.svg",
+      "mime": "image/svg+xml",
+      "bytes": 33017,
+      "sha256": "c22396f14cf1e415b623495c75d7ee84b6bd4a717e9c9a97db8c044aeebf5294"
+    },
+    {
+      "key": "back calender image/annie-spratt-rfh0QKJ9LDE-unsplash.svg",
+      "file": "assets/media/ff-asset-051.svg",
+      "mime": "image/svg+xml",
+      "bytes": 358561,
+      "sha256": "68a735dda537ff9b0db6b79a7e2cdc08a155b4674854c2b6c83070bfe279c329"
+    },
+    {
+      "key": "back calender image/ahmed-hossam-kBjob4w9xoE-unsplash.svg",
+      "file": "assets/media/ff-asset-052.svg",
+      "mime": "image/svg+xml",
+      "bytes": 36554,
+      "sha256": "87bb46b360d221ab3050850aa6385732905ef2b0a5511f2c1fead03320a522c0"
+    },
+    {
+      "key": "back calender image/arunima-rai-QV_XwdFWWiI-unsplash.svg",
+      "file": "assets/media/ff-asset-053.svg",
+      "mime": "image/svg+xml",
+      "bytes": 600521,
+      "sha256": "fb13e42aac0b392b1684135d1b1cf51e923ec9b3b03c5e9c4efe0ec5a394aa1d"
+    },
+    {
+      "key": "back calender image/graficon-stuff-zGTvZ5TaCc4-unsplash.svg",
+      "file": "assets/media/ff-asset-054.svg",
+      "mime": "image/svg+xml",
+      "bytes": 173147,
+      "sha256": "5782d0a67dab3ca29cbcde4ab742072e6e15507d99876615c554609d0daa1c56"
+    },
+    {
+      "key": "back calender image/sonika-agarwal-CY3rfMlRDI4-unsplash.svg",
+      "file": "assets/media/ff-asset-055.svg",
+      "mime": "image/svg+xml",
+      "bytes": 63461,
+      "sha256": "a1d95780fc099ab6a0336014a881d78779eeae2ad87abb5d9be8d3c9025ed7c4"
+    },
+    {
+      "key": "back calender image/fachri-ersan-GuSIE-1nupQ-unsplash.svg",
+      "file": "assets/media/ff-asset-056.svg",
+      "mime": "image/svg+xml",
+      "bytes": 56829,
+      "sha256": "d8372b2d7012829703c7269cd8112aa335b4c6c137874600daa1da129fa803fb"
+    },
+    {
+      "key": "back calender image/nik-zqrkAPLePPw-unsplash.svg",
+      "file": "assets/media/ff-asset-057.svg",
+      "mime": "image/svg+xml",
+      "bytes": 1762,
+      "sha256": "e8631c135c967c34b919965d4f65054c64b1cef40bed583391ef6141e85918ca"
+    },
+    {
+      "key": "music/Calm music 1 -music.mp3",
+      "file": "assets/media/ff-asset-058.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4481358,
+      "sha256": "435d7edac8e49c85561597021d1b3c84027f9357abbc77243d43217f3a3fda35"
+    },
+    {
+      "key": "music/calm music 2-music.mp3",
+      "file": "assets/media/ff-asset-059.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3329462,
+      "sha256": "0919e231f2eba96106d62904350b3b3d08f16ccc5cd22156a02d0c8220bbc4a3"
+    }
+  ],
+  "optimization": {
+    "description": "Extracted inert base64 media into local assets/media files. The synchronous asset() resolver returns relative paths for extracted media. External app scripts are deferred in document order except the early theme bootstrap. Document closing tags normalized. CSS and visual rules unchanged.",
+    "visual_css_modified": false,
+    "media_asset_count": 59,
+    "total_media_bytes": 9751312,
+    "font_assets_extracted": 2,
+    "font_bytes_extracted": 83736
+  },
+  "fonts": [
+    {
+      "file": "assets/fonts/focusflow-font-01.woff2",
+      "bytes": 40600,
+      "sha256": "395879b6319a34f906400f9987e914981603cbcb0bdcda706de3a0931a4bdd8d"
+    },
+    {
+      "file": "assets/fonts/focusflow-font-02.woff2",
+      "bytes": 43136,
+      "sha256": "1404ca348bd75ef836f4dd8b6f2cc719458642d1237c368296b2fc652dca47dc"
+    }
+  ]
+}

@@ -1770,7 +1770,7 @@ $('#goalForm').addEventListener('submit', e => {
     state.goal = v;
     store.set(KEYS.goal, v);
     localStorage.removeItem('focusflow-goal-skipped');
-    if (state.goal !== v || store.get(KEYS.goal, '') !== v) throw new Error('save failed');
+   if (state.goal !== v || store.getRaw(KEYS.goal, '') !== v) throw new Error('save failed');
     closeOverlay($('#goalOverlay'));
     if (state.page === 'progress') renderProgress();
     if (desktopLayout.matches) renderHomeSummary();
